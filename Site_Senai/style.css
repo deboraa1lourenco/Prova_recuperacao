@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+img{
+    border-radius: 30px;
+}
+
+body{
+    background-color: rgb(11, 9, 160);
+}
+
+h1{
+    color: white;
+}
+
+#h1-curso{
+    background-color: #3474d4;
+}
+
+header {
+background-color: #eeeaea;
+color: rgb(0, 0, 0);
+padding: 25px;
+text-align: center;
+
+/* usando position para definir a posição do cabeçalho */
+position: relative;
+}
+
+.pai{
+/* usando grid para organizar os cards */
+display: grid;
+/* criando 3 colunas iguais */
+grid-template-columns: repeat(3, 1fr);
+/* criando espaço entre os cards */
+gap: 20px;
+background-color: #3474d4;
+}
+.card-body, h4{
+    color: black
+}
+
+.oi{
+    background-color: orange;
+    color: #0f172a;
+    border-radius: 10px;
+}
+.card-body {
+border-radius: 30px;
+background-color: white;
+padding: 15px;
+border: 1px solid #ddd;
+
+}
+
+.cards {
+    grid-template-columns: 1fr;
+}
+
+/* diminuindo o tamanho da letra da tabela */
+table {
+    font-size: 14px;
+}
+
+.main{
+    background-color: #3474d4;
+}
+
+/* centralizando a mensagem depois dos cards no centro*/
+.chamada {
+text-align: center;
+}
+.rodape{
+    background: #0f172a;
+    color: white;
+    margin-top: 50px;
+    padding: 40px 0px;
+}
+
+.rodape-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.rodape-grid h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.rodape-grid{
+    color: #d1d5db;
+    margin-bottom: 10px;
+}
